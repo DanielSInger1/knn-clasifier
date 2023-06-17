@@ -41,4 +41,5 @@ so the reciving side can't tell if it's 1 "message" or 2.<br>
 our solution is this one: after every message we send "$"; so "hello world$what's up?$" is 2 different "messsages"<br>
 the client and server can know now how to seperate the data in the reciving buffer to "messages" in the way the sending side sent them.<br>
 
-
+__note for the checker__ - the class the we name handleClient,does the same as the class "cli" that you explained about in the task<br>,
+we decided to name it HandleClient
